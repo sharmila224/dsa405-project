@@ -1,0 +1,26 @@
+manufacturer,capacity_tb,spec_source,wiki_capacity_documented
+Seagate,1,Seagate_Technology,True
+Seagate,2,Seagate_Technology,True
+Seagate,3,Seagate_Technology,True
+Seagate,4,Seagate_Technology,True
+Seagate,5,Seagate_Technology,True
+Seagate,8,Seagate_Technology,True
+Seagate,15,Seagate_Technology,True
+Seagate,16,Seagate_Technology,True
+Seagate,18,Seagate_Technology,True
+Seagate,20,Seagate_Technology,True
+Seagate,22,Seagate_Technology,True
+Seagate,30,Seagate_Technology,True
+Seagate,10,Seagate_Barracuda,True
+Seagate,14,Seagate_Barracuda,True
+Seagate,24,Seagate_Barracuda,True
+Western Digital,1,Western_Digital,True
+Western Digital,2,Western_Digital,True
+Western Digital,3,Western_Digital,True
+Western Digital,4,Western_Digital,True
+Western Digital,6,Western_Digital,True
+Western Digital,10,Western_Digital,True
+Western Digital,14,Western_Digital,True
+HGST,8,HGST,True
+HGST,10,HGST,True
+HGST,6,HGST,True

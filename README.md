@@ -29,3 +29,11 @@ the web and never writes to that folder.
 ## Repository layout
 - `data/raw/` — raw data file and SOURCES.md (not modified by any code)
 - `DSA405_002_FA26_P2_sshirol.ipynb` — audit, cleaning log, and provenance brief
+
+- ## Source 2 (P3): Wikipedia drive specifications
+Collected in DSA405_002_FA26_P3_sshirol.ipynb with requests + BeautifulSoup from Wikipedia
+manufacturer and product-line articles, read logged out, with an honest User-Agent, a
+1-second rate limit, and on-disk caching. Raw pages are saved to data/raw/wiki_*.html and
+the parsed spec table to data/raw/wikipedia_specs.csv. The two sources are joined on
+manufacturer + capacity_tb, a change from the P1 plan's model-string join (documented as
+drift in P3). Wikipedia content is CC BY-SA and is credited.

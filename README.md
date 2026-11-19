@@ -26,9 +26,17 @@ the web and never writes to that folder.
 3. The notebook reads the data directly from this repository, so there is
    nothing to download first.
 
+## Running it
+Open any of the project notebooks in Google Colab, choose Runtime > Restart session, then Run all. Each notebook pulls its data directly from this repository, so no manual download is needed.
+- P2 (DSA405_002_FA26_P2_sshirol.ipynb): data audit, cleaning log, provenance brief.
+- P3 (DSA405_002_FA26_P3_sshirol.ipynb): acquisition of the Wikipedia specs, the join to Backblaze, and the verification suite.
+- P4 (DSA405_002_FA26_P4_sshirol.ipynb): full synthesis, findings, figures, and reproducibility notes.
+
 ## Repository layout
-- `data/raw/` — raw data file and SOURCES.md (not modified by any code)
-- `DSA405_002_FA26_P2_sshirol.ipynb` — audit, cleaning log, and provenance brief
+- DSA405_002_FA26_P2_sshirol.ipynb: audit, cleaning log, provenance brief.
+- DSA405_002_FA26_P3_sshirol.ipynb: specs acquisition, join, verification.
+- DSA405_002_FA26_P4_sshirol.ipynb: synthesis, findings, figures, reproducibility.
+- data/raw/: the Backblaze extract (backblaze_extract.csv.gz), cached Wikipedia pages (wiki_*.html), the scraped specs (wikipedia_specs.csv), and SOURCES.md.
 
 - ## Source 2 (P3): Wikipedia drive specifications
 Collected in DSA405_002_FA26_P3_sshirol.ipynb with requests + BeautifulSoup from Wikipedia
